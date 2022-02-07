@@ -1,0 +1,16 @@
+body{
+        font-family: "Trebuchet MS";
+    }
+    button {
+        color: cornsilk;
+        font-size: large;
+        background-color: #8704DC;
+    }
+
+    .save {
+        background-color: #04DCAE !important;
+    }
+
+    .cancel {
+        background-color: #DC9E04;
+    }
