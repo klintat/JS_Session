@@ -43,6 +43,10 @@ li a:hover {
     color: gold;
 }
 
-.outterClass {
+.outterClass .innerClass specialID {
     color: violet;
+}
+
+.outterClass .innerClass #specialID {
+    color: cyan;
 }
