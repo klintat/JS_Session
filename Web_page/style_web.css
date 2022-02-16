@@ -1,0 +1,81 @@
+html {
+    background: linear-gradient(to left top, cornsilk, peru) fixed;
+}
+
+body {
+    font-family: "Time New Romman";
+}
+
+.type {
+    font-family: cursive;
+    width: fit-content;
+    margin: 0 auto 10px auto;
+    font-size: 3em;
+    color: maroon;
+}
+
+.link-bar-wrapper {
+    display: inline-block;
+    width: 100%
+}
+
+.link-bar {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.link-container {
+    display: inline;
+    padding: 5px 25px 5px 25px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: darkred;
+}
+
+.link-container:first-child {
+    margin: 0 10px 0 0;
+}
+
+.link-container:last-child {
+    margin: 0 0 0 10px;
+}
+
+.link-container:hover {
+    opacity: 70%;
+}
+
+.choco-img {
+    width: 400px;
+    height: 300px;
+    margin: 25px auto 0 auto;
+    display: block;
+}
+
+.paragraph {
+    max-width: 600px;
+    margin: 25px auto 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.home-link {
+    background-color: thistle;
+}
+
+.dark-link {
+    background-color: peru;
+}
+
+.milk-link {
+    background-color: orange;
+}
+
+.white-link {
+    background-color: cornsilk;
+}
