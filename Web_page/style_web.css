@@ -11,7 +11,7 @@ body {
     width: fit-content;
     margin: 0 auto 10px auto;
     font-size: 3em;
-    color: maroon;
+    color: #5e2d14;
 }
 
 .link-bar-wrapper {
@@ -26,16 +26,17 @@ body {
 }
 
 .link-container {
+    align-self: center;
     display: inline;
     padding: 5px 25px 5px 25px;
-    border-color: black;
+    border-color: #5e2d14;
     border-width: 1px;
     border-style: solid;
     margin: 0 10px;
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: darkred;
+    color: #e28343;
 }
 
 .link-container:first-child {
@@ -62,20 +63,29 @@ body {
     margin: 25px auto 0 auto;
     text-align: center;
     font-style: italic;
+    font-size: large;
+}
+
+.home {
+    width: 50%;
 }
 
 .home-link {
-    background-color: thistle;
+    /* background-color: thistle; */
+    background-color: none;
+    border: none;
+    width: fit-content;
+    padding: 5px;
 }
 
 .dark-link {
-    background-color: peru;
+    background-color: #442e23;
 }
 
 .milk-link {
-    background-color: orange;
+    background-color: #774125;
 }
 
 .white-link {
-    background-color: cornsilk;
+    background-color: #fff3d3;
 }
