@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Calculator</h1>
+</head>
+
+<body>
+    <script type="text/javascript" src="calculator.js">
+    </script>
+    <div>
+        <div>
+            <p>Enter 1st number : </p>
+            <input type="number" value="" id="num1">
+            <br>
+        </div>
+        <div>
+            <p>Enter 2nd number : </p>
+            <input type="number" value="" id="num2">
+            <br>
+        </div>
+        <div>
+            <button type="submit" onClick="calculate('+')">Addition</button>
+            <button type="submit" onClick="calculate('-')">Subtraction</button>
+            <button type="submit" onClick="calculate('*')">Multiplication</button>
+            <button type="submit" onClick="calculate('/')">Division</button>
+        </div>
+        <p>Result : </p>
+        <input disable type="text" id="result" value="">
+
+    </div>
+</body>
+
+</html>
