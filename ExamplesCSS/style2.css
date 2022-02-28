@@ -15,6 +15,7 @@
         margin: 5px 0.5px 2px 3px;
     }
 }
+
 .section1 {
     overflow: auto;
     max-height: 50px;
@@ -33,6 +34,6 @@
     color: white;
 }
 
-#importantInfo{
-
+#importantInfo {
+    color: red;
 }
