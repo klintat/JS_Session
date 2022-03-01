@@ -48,10 +48,18 @@ a:hover {
     color: gold;
 }
 
-.outterClass .innerClass #specialID {
+.outterClass .innerClass {
     color: violet;
 }
 
 .outterClass .innerClass #specialID {
     color: cyan;
 }
+
+
+/* .filterIcon {
+    background: url('filterIcon.png');
+    height: 100px;
+    width: 100px;
+    display: block;
+} */
