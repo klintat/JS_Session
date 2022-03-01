@@ -1,0 +1,13 @@
+.big {
+    background-color: rgb(212, 209, 21);
+    color: white;
+}
+
+.center {
+    text-align: center;
+    margin: 10%;
+}
+
+body {
+    background: rgb(153, 224, 153);
+}
