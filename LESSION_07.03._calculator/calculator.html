@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+<div class="center"> 
+    <form>
+        <input type="text" name="display" id="textArea" disabled/>
+        <div class="buttons">
+            <input type="button" id="seven" onclick="numberPress(event)" value="7">
+            <input type="button" id="eight"onclick="numberPress(event)" value="8">
+            <input type="button" id="nine" onclick="numberPress(event)" value="9">
+            <input type="button" id="divide" onclick="processPress(event)" value="/"><br>
+            <input type="button" id="four" onclick="numberPress(event)" value="4">
+            <input type="button" id="five" onclick="numberPress(event)" value="5">
+            <input type="button" id="six" onclick="numberPress(event)" value="6">
+            <input type="button" id="multi" onclick="processPress(event)" value="*"><br>
+            <input type="button" id="one" onclick="numberPress(event)" value="1">
+            <input type="button" id="two" onclick="numberPress(event)" value="2">
+            <input type="button" id="three" onclick="numberPress(event)" value="3">
+            <input type="button" id="subs" onclick="processPress(event)" value="-"><br>
+            <input type="button" id="dot" value=".">
+            <input type="button" id="zero" onclick="numberPress(event)" value="0">
+            <input type="button" id="add" onclick="processPress(event)" value="+">
+            <input type="button" id="clear" onclick="clearPress(event)" value="C"><br>
+            <input type="button" id="equal" onclick="resultPress(event)" value="=">
+        </div>
+    </form>
+</div>
+<script src="calculator.js"> </script>
+</body>
+
+</html>
