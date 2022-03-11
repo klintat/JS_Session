@@ -13,21 +13,25 @@
     <form>
         <input type="text" name="display" id="textArea" disabled/>
         <div class="buttons">
+            <input type="button" id="sign" onclick="plusMinus(event)" value="+/-">
+            <input type="button" id="prec" onclick="precent(event)" value="%">
+            <input type="button" id="sqrt" onclick="squareRoot(event)" value="&radic;">
+            <input type="button" id="delete" onclick="del(event)" value="&lArr;"><br>
             <input type="button" id="seven" onclick="numberPress(event)" value="7">
             <input type="button" id="eight"onclick="numberPress(event)" value="8">
             <input type="button" id="nine" onclick="numberPress(event)" value="9">
-            <input type="button" id="divide" onclick="processPress(event)" value="/"><br>
+            <input class="operator" type="button" id="divide" onclick="processPress(event)" value="/"><br>
             <input type="button" id="four" onclick="numberPress(event)" value="4">
             <input type="button" id="five" onclick="numberPress(event)" value="5">
             <input type="button" id="six" onclick="numberPress(event)" value="6">
-            <input type="button" id="multi" onclick="processPress(event)" value="*"><br>
+            <input class="operator" type="button" id="multi" onclick="processPress(event)" value="*"><br>
             <input type="button" id="one" onclick="numberPress(event)" value="1">
             <input type="button" id="two" onclick="numberPress(event)" value="2">
             <input type="button" id="three" onclick="numberPress(event)" value="3">
-            <input type="button" id="subs" onclick="processPress(event)" value="-"><br>
-            <input type="button" id="dot" value=".">
+            <input class="operator" type="button" id="subs" onclick="processPress(event)" value="-"><br>
+            <input type="button" id="dot" onclick="numberPress(event)" value=".">
             <input type="button" id="zero" onclick="numberPress(event)" value="0">
-            <input type="button" id="add" onclick="processPress(event)" value="+">
+            <input class="operator" type="button" id="add" onclick="processPress(event)" value="+">
             <input type="button" id="clear" onclick="clearPress(event)" value="C"><br>
             <input type="button" id="equal" onclick="resultPress(event)" value="=">
         </div>

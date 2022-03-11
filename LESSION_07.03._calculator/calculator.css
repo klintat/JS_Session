@@ -67,7 +67,3 @@ input#equal {
     background: #ffde25;
     border: 1px solid #b39200;
 }
-
-input#dot {
-    visibility: hidden;
-}
