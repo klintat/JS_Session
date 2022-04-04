@@ -1,11 +1,10 @@
-function Input ({initValue, onChange, id, fieldName}) {
+function Input({ initValue, onChange, id, fieldname, editable }) {
+
     const onInputChange = event => {
-        onChange(event, id, fieldName);
+        onChange(event, id, fieldname);
     }
-
-    return(
-        <input value={initValue} onChange={onInputChange}></input>
-    );
+    return (
+        <input value={initValue} onChange={onInputChange} readOnly={editable}></input>
+    )
 }
-
 export default Input;
