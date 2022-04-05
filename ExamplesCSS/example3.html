@@ -11,7 +11,7 @@
         <ul>
             <li>
                 <a href="example1.html"> Exemple 1 </a>
-            </li>
+             </li>
             <li>
                 <a href="example2.html"> Exemple 2 </a>
             </li>
@@ -33,8 +33,19 @@
         <div class="innerClass">
             Some text here (in inner)
         </div>
+
         <div class="outerClass">
-            Some text here (in in outer)
+            <div class="innerClass">
+                Some text here (in in outer)
+            </div>
+        </div>
+
+        <div class="outerClass">
+            <div class="innerClass">
+                <div id=specialID> 
+                    Some text here (in in outer)
+                </div>
+            </div>
         </div>
     </p>
 
