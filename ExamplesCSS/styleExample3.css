@@ -58,9 +58,9 @@ a:hover {
 }
 
 
-/* .filterIcon {
+.filterIcon {
     background: url('filterIcon.png');
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     display: block;
-} */
+}
